@@ -232,7 +232,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/arpitbhalla1801)
+MIT
 
 ---
 
