@@ -1,0 +1,36 @@
+{
+  "name": "djshandler",
+  "version": "1.0.0",
+  "description": "The Express.js of Discord bots - A powerful command handler framework with CLI scaffolding and smart runtime engine",
+  "private": true,
+  "packageManager": "npm@9.8.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=./packages/* && changeset publish"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "command-handler",
+    "framework",
+    "cli",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5",
+    "turbo": "^2.5.5"
+  }
+}
