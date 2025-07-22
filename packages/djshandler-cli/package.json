@@ -1,6 +1,6 @@
 {
   "name": "djshandler-cli",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "CLI tool for generating and managing Discord.js bot projects with djshandler",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -37,7 +37,7 @@
     "inquirer": "^9.2.12",
     "chalk": "^5.3.0",
     "fs-extra": "^11.2.0",
-    "djshandler-core": "^1.0.0"
+    "djshandler-core": "^2.0.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
